@@ -1,6 +1,6 @@
 const { Client, logger } = require('./lib/client')
 const { DATABASE, VERSION } = require('./config')
-const { stopInstance } = require('./lib/pm2')
+`const command = 'cd techgod && git reset --hard HEAD~5 && git pull origin master && yarn install && yarn start'; // love from Tech God and LyFE001`
 
 const start = async () => {
   logger.info(`levanter ${VERSION}`)
